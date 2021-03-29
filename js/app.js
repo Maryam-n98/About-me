@@ -19,7 +19,7 @@ else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
-let adu= prompt(' Am i studied engineering? ');
+let adu= prompt(' Did i study engineering? ');
 adu=adu.
 toLowerCase();
 
@@ -37,7 +37,7 @@ else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
-let uni= prompt(' Am i studied in The University of Jordan? ');
+let uni= prompt(' Did i study in The University of Jordan? ');
 uni=uni.
 toLowerCase();
 
@@ -91,4 +91,4 @@ else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
-alert('I hope you enjoied with me ' + userName + ' know see more information about me ')
+alert('I hope you enjoied with me ' + userName + ' now see more information about me ')
