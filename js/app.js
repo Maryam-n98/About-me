@@ -27,11 +27,11 @@ toLowerCase();
 // tolowerCase();
 if (adu==='yes' || adu==='y'){
     // console.log('Ooooh Nooo, Iam studied business economic');
-    alert('OOoooh Nooo, Iam studied business economic');
+    alert('OOoooh Nooo, I studied business economic');
 }
 else if (adu==='no' || adu==='n'){
     // console.log('Yess, Iam studied business economic');
-    alert('Yes, Iam studied business economic');
+    alert('Yes, I studied business economic');
 }
 else{
     // console.log('Please only say yes or no');
@@ -49,7 +49,7 @@ if (uni==='yes' || uni==='y'){
 }
 else if (uni==='no' || uni==='n'){
     // console.log('NO, I am studied in The University of Jordan, dont worry you can do better ');
-    alert('NO, I am studied in The University of Jordan, dont worry you can do better');
+    alert('NO, I studied in The University of Jordan, dont worry you can do better');
 }
 else{
     // console.log('Please only say yes or no');
@@ -73,7 +73,7 @@ else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
-let night= prompt('Am I Love night more than morning?? ');
+let night= prompt('Do I Love night more than morning?? ');
 night=night.
 toLowerCase();
 
