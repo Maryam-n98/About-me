@@ -1,6 +1,6 @@
 body{
     background-color: #f1f1f6;
-    margin: 0.7cm;
+    /* margin: 0.7cm; */
 }
 header nav{
     float: right;
@@ -9,58 +9,70 @@ header nav{
 }
 h1{
     color: #463d42;
-    margin: 60px;
+    /* margin: 60px; */
 }
 header nav ul li{
     display: inline-block;
     margin-left: 40px;
+    
 }
 header nav ul li a{
     color: rgb(128, 128, 128);
     text-decoration: none;
     font-weight: 700;
 }
-header{
+/* header{
     color: #f1f1f6;
     background-color:#be96eb ;
     height: 70px;
     width: 100%;
     text-align: center;
-    line-height: 70px;
-
-}
+    line-height: 70px; 
+} */
 
 #me{ 
-    color: #e1ccec;
-    background-color: #4d484c;
+    color: rgb(247, 247, 201);
+    background-color: #868686;
     display: inline-block;
     margin-right: 20px;
     margin: 25px 50px;
 }
 #edu{
-    color: #4d484c;
-    background-color: #a27eb6;
+    color: #5a5a5a;
+    background-color: #f1ef50;
     display: inline-block;
     margin-right: 20px;
 
 }
 #food{
-    color: #e1ccec;
-    background-color: #4d484c;
+    color: #e4f077;
+    background-color: #a3a395;
     display: inline-block; 
     margin-right: 20px;
     
 }
 #ni{
-    color: #4d484c;
-    background-color: #a27eb6;
+    color: #575754;
+    background-color: #f8f532;
     display: inline-block;
     margin-right: 20px;
 
 }
+#mov{
+    color: #f1ef50;
+    background-color: #464646;
+    display: inline-block;
+    margin-right: 20px;
+}
+#list{
+    color: #575754;
+    background-color: #f8f532;
+    display: inline-block;
+    margin-right: 20px;
+}
 footer{
-    background-color: indigo;
-    color: gray;
+    background-color: rgb(251, 255, 0);
+    color: rgb(87, 87, 87);
     margin: 25px 50px;
     height: 60px;
 
