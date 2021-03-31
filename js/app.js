@@ -32,52 +32,58 @@
 
 //Question2
 
- let secondQuesFun= function () {
+//  let secondQuesFun= function () {
     
 
-let adu= prompt(' Did i study engineering? ');
-adu=adu.
+// let adu= prompt(' Did i study engineering? ');
+// adu=adu.
+// toLowerCase();
+
+// // console.log(adu);
+// // tolowerCase();
+// if (adu==='yes' || adu==='y'){
+//     // console.log('Ooooh Nooo, Iam studied business economic');
+//     alert('OOoooh Nooo, I studied business economic');
+// }
+// else if (adu==='no' || adu==='n'){
+//     // console.log('Yess, Iam studied business economic');
+//     alert('Yes, I studied business economic');
+//     score++
+// }
+// else{
+//     // console.log('Please only say yes or no');
+//     alert('Please only say yes or no');
+// }
+//  };
+//  secondQuesFun();
+
+// Question3
+
+ let thirdQuesFun= function () {
+    
+
+let uni= prompt(' Did i study in The University of Jordan? ');
+uni=uni.
 toLowerCase();
 
-// console.log(adu);
+// console.log(uni);
 // tolowerCase();
-if (adu==='yes' || adu==='y'){
-    // console.log('Ooooh Nooo, Iam studied business economic');
-    alert('OOoooh Nooo, I studied business economic');
-}
-else if (adu==='no' || adu==='n'){
-    // console.log('Yess, Iam studied business economic');
-    alert('Yes, I studied business economic');
+if (uni==='yes' || uni==='y'){
+    // console.log('Good job thats right');
+    alert('Good job thats right');
     score++
+}
+else if (uni==='no' || uni==='n'){
+    // console.log('NO, I am studied in The University of Jordan, dont worry you can do better ');
+    alert('NO, I studied in The University of Jordan, dont worry you can do better');
 }
 else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
  };
- secondQuesFun();
+ thirdQuesFun();
 
-
-
-// let uni= prompt(' Did i study in The University of Jordan? ');
-// uni=uni.
-// toLowerCase();
-
-// // console.log(uni);
-// // tolowerCase();
-// if (uni==='yes' || uni==='y'){
-//     // console.log('Good job thats right');
-//     alert('Good job thats right');
-//     score++
-// }
-// else if (uni==='no' || uni==='n'){
-//     // console.log('NO, I am studied in The University of Jordan, dont worry you can do better ');
-//     alert('NO, I studied in The University of Jordan, dont worry you can do better');
-// }
-// else{
-//     // console.log('Please only say yes or no');
-//     alert('Please only say yes or no');
-// }
 // let food= prompt('Is the burger my favorite fast food? ');
 // food=food.
 // toLowerCase();
