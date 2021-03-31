@@ -30,6 +30,10 @@
 // };
 // firstQuesFun();
 
+//Question2
+
+ let secondQuesFun= function () {
+    
 
 let adu= prompt(' Did i study engineering? ');
 adu=adu.
@@ -50,7 +54,8 @@ else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
-
+ };
+ secondQuesFun();
 
 
 
