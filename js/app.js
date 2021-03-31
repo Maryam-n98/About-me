@@ -59,50 +59,60 @@
 
 // Question3
 
- let thirdQuesFun= function () {
+//  let thirdQuesFun= function () {
     
 
-let uni= prompt(' Did i study in The University of Jordan? ');
-uni=uni.
+// let uni= prompt(' Did i study in The University of Jordan? ');
+// uni=uni.
+// toLowerCase();
+
+// // console.log(uni);
+// // tolowerCase();
+// if (uni==='yes' || uni==='y'){
+//     // console.log('Good job thats right');
+//     alert('Good job thats right');
+//     score++
+// }
+// else if (uni==='no' || uni==='n'){
+//     // console.log('NO, I am studied in The University of Jordan, dont worry you can do better ');
+//     alert('NO, I studied in The University of Jordan, dont worry you can do better');
+// }
+// else{
+//     // console.log('Please only say yes or no');
+//     alert('Please only say yes or no');
+// }
+//  };
+//  thirdQuesFun();
+
+// Question4
+
+ let fourthQuesFun= function () {
+    
+let food= prompt('Is the burger my favorite fast food? ');
+food=food.
 toLowerCase();
 
-// console.log(uni);
+// console.log(food);
 // tolowerCase();
-if (uni==='yes' || uni==='y'){
-    // console.log('Good job thats right');
-    alert('Good job thats right');
+if (food==='yes' || food==='y'){
+    // console.log('Good job thats right, I love burger soo much');
+    alert('Good job thats right, I love burger soo much');
     score++
 }
-else if (uni==='no' || uni==='n'){
-    // console.log('NO, I am studied in The University of Jordan, dont worry you can do better ');
-    alert('NO, I studied in The University of Jordan, dont worry you can do better');
+else if (food==='no' || food==='n'){
+    // console.log('NO, not again, i think burger is most delicious food ');
+    alert('NO, not again, i think burger is most delicious food ');
 }
 else{
     // console.log('Please only say yes or no');
     alert('Please only say yes or no');
 }
  };
- thirdQuesFun();
 
-// let food= prompt('Is the burger my favorite fast food? ');
-// food=food.
-// toLowerCase();
+fourthQuesFun();
 
-// // console.log(food);
-// // tolowerCase();
-// if (food==='yes' || food==='y'){
-//     // console.log('Good job thats right, I love burger soo much');
-//     alert('Good job thats right, I love burger soo much');
-//     score++
-// }
-// else if (food==='no' || food==='n'){
-//     // console.log('NO, not again, i think burger is most delicious food ');
-//     alert('NO, not again, i think burger is most delicious food ');
-// }
-// else{
-//     // console.log('Please only say yes or no');
-//     alert('Please only say yes or no');
-// }
+
+
 // let night= prompt('Do I Love night more than morning?? ');
 // night=night.
 // toLowerCase();
