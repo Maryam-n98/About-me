@@ -86,52 +86,58 @@
 
 // Question4
 
- let fourthQuesFun= function () {
+//  let fourthQuesFun= function () {
     
-let food= prompt('Is the burger my favorite fast food? ');
-food=food.
-toLowerCase();
-
-// console.log(food);
-// tolowerCase();
-if (food==='yes' || food==='y'){
-    // console.log('Good job thats right, I love burger soo much');
-    alert('Good job thats right, I love burger soo much');
-    score++
-}
-else if (food==='no' || food==='n'){
-    // console.log('NO, not again, i think burger is most delicious food ');
-    alert('NO, not again, i think burger is most delicious food ');
-}
-else{
-    // console.log('Please only say yes or no');
-    alert('Please only say yes or no');
-}
- };
-
-fourthQuesFun();
-
-
-
-// let night= prompt('Do I Love night more than morning?? ');
-// night=night.
+// let food= prompt('Is the burger my favorite fast food? ');
+// food=food.
 // toLowerCase();
 
-// // console.log(night);
+// // console.log(food);
 // // tolowerCase();
-// if (night==='yes' || night==='y'){
-//     // console.log('Pravoo, I like the night but i dont like dark circles, Hahahaha');
-//     alert('Pravoo, I like the night but i dont like dark circles, Hahahaha');
+// if (food==='yes' || food==='y'){
+//     // console.log('Good job thats right, I love burger soo much');
+//     alert('Good job thats right, I love burger soo much');
 //     score++
 // }
-// else if (night==='no' || night==='n'){
-//     // console.log('NO, i know its not healthy but i love the night');
-//     alert('NO, i know its not healthy but i love the night ');
+// else if (food==='no' || food==='n'){
+//     // console.log('NO, not again, i think burger is most delicious food ');
+//     alert('NO, not again, i think burger is most delicious food ');
 // }
 // else{
 //     // console.log('Please only say yes or no');
 //     alert('Please only say yes or no');
 // }
+//  };
+
+// fourthQuesFun();
+
+// Question5
+
+  let fifthQuesFun= function () {
+    
+
+let night= prompt('Do I Love night more than morning?? ');
+night=night.
+toLowerCase();
+
+// console.log(night);
+// tolowerCase();
+if (night==='yes' || night==='y'){
+    // console.log('Pravoo, I like the night but i dont like dark circles, Hahahaha');
+    alert('Pravoo, I like the night but i dont like dark circles, Hahahaha');
+    score++
+}
+else if (night==='no' || night==='n'){
+    // console.log('NO, i know its not healthy but i love the night');
+    alert('NO, i know its not healthy but i love the night ');
+}
+else{
+    // console.log('Please only say yes or no');
+    alert('Please only say yes or no');
+}
+  };
+  fifthQuesFun();
+
 // // alert('I hope you enjoied with me ' + userName + ' now see more information about me ');
 // var i=0;
 // for(let i=0; i<4; i++){
