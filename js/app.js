@@ -1,6 +1,5 @@
 'use strict';
 let userName = prompt('whats your name?');
-// console.log(' Hallo ' + userName);
 alert(' Hallo ' + userName + ' I am Maryam Najjar');
 let score = 0;
 
@@ -12,19 +11,15 @@ let firstQuesFun = function () {
     let age = prompt(' Am i 22 years old? ');
     age = age.
         toLowerCase();
-    // console.log(age);
-    // tolowerCase();
+
     if (age === 'yes' || age === 'y') {
-        // console.log('Ooooh pravoo');
         alert('Ooooh pravoo');
         score++
     }
     else if (age === 'no' || age === 'n') {
-        // console.log('Nooo Iam 22');
         alert('Nooo I am 22 ');
     }
     else {
-        // console.log('Please only say yes or no');
         alert('Please only say yes or no');
     }
 };
@@ -38,20 +33,14 @@ let secondQuesFun = function () {
     let adu = prompt(' Did i study engineering? ');
     adu = adu.
         toLowerCase();
-
-    // console.log(adu);
-    // tolowerCase();
     if (adu === 'yes' || adu === 'y') {
-        // console.log('Ooooh Nooo, Iam studied business economic');
         alert('OOoooh Nooo, I studied business economic');
     }
     else if (adu === 'no' || adu === 'n') {
-        // console.log('Yess, Iam studied business economic');
         alert('Yes, I studied business economic');
         score++
     }
     else {
-        // console.log('Please only say yes or no');
         alert('Please only say yes or no');
     }
 };
@@ -66,19 +55,14 @@ let thirdQuesFun = function () {
     uni = uni.
         toLowerCase();
 
-    // console.log(uni);
-    // tolowerCase();
     if (uni === 'yes' || uni === 'y') {
-        // console.log('Good job thats right');
         alert('Good job thats right');
         score++
     }
     else if (uni === 'no' || uni === 'n') {
-        // console.log('NO, I am studied in The University of Jordan, dont worry you can do better ');
         alert('NO, I studied in The University of Jordan, dont worry you can do better');
     }
     else {
-        // console.log('Please only say yes or no');
         alert('Please only say yes or no');
     }
 };
@@ -92,19 +76,14 @@ let fourthQuesFun = function () {
     food = food.
         toLowerCase();
 
-    // console.log(food);
-    // tolowerCase();
     if (food === 'yes' || food === 'y') {
-        // console.log('Good job thats right, I love burger soo much');
         alert('Good job thats right, I love burger soo much');
         score++
     }
     else if (food === 'no' || food === 'n') {
-        // console.log('NO, not again, i think burger is most delicious food ');
         alert('NO, not again, i think burger is most delicious food ');
     }
     else {
-        // console.log('Please only say yes or no');
         alert('Please only say yes or no');
     }
 };
@@ -119,20 +98,14 @@ let fifthQuesFun = function () {
     let night = prompt('Do I Love night more than morning?? ');
     night = night.
         toLowerCase();
-
-    // console.log(night);
-    // tolowerCase();
     if (night === 'yes' || night === 'y') {
-        // console.log('Pravoo, I like the night but i dont like dark circles, Hahahaha');
         alert('Pravoo, I like the night but i dont like dark circles, Hahahaha');
         score++
     }
     else if (night === 'no' || night === 'n') {
-        // console.log('NO, i know its not healthy but i love the night');
         alert('NO, i know its not healthy but i love the night ');
     }
     else {
-        // console.log('Please only say yes or no');
         alert('Please only say yes or no');
     }
 };
@@ -167,17 +140,18 @@ sixthQuesFun();
 let seventhQuesFun = function () {
 
     alert(' Are you ready to another gussing game?');
+    let color=['violet', 'mavue', 'pink', 'iris'];
     var s = 0
     for (let s = 0; s < 6; s++) {
         let color = prompt('can you tring to know whats my favorite color?');
         color = color.
             toLowerCase();
-        if (color != 'violet') {
-            alert('try again its start with a letter "v"');
+        if (color != color) {
+            alert('try again ');
             continue;
         }
         else {
-            alert('Good job its Violet, Its nice color');
+            alert('Good job ');
             score++;
             break;
         }
