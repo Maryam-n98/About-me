@@ -9,7 +9,9 @@ header nav{
 }
 h1{
     color: #463d42;
-    /* margin: 60px; */
+   
+    font-family: 'New Tegomin', serif;
+    position: static;
 }
 header nav ul li{
     display: inline-block;

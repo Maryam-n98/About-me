@@ -139,23 +139,33 @@ sixthQuesFun();
 
 let seventhQuesFun = function () {
 
-    alert(' Are you ready to another gussing game?');
-    let color=['violet', 'mavue', 'pink', 'iris'];
-    var s = 0
-    for (let s = 0; s < 6; s++) {
-        let color = prompt('can you tring to know whats my favorite color?');
-        color = color.
-            toLowerCase();
-        if (color != color) {
-            alert('try again ');
-            continue;
-        }
-        else {
-            alert('Good job ');
-            score++;
+let userAnswer = false;
+let col = ['iris', 'pink', 'violet' , 'mavue'];
+var s=0;
+for (let s = 0; s < 6; s++) {
+    let color = prompt('can you tring to know whats my favorite color?');
+var b;
+    for (let b = 0; b < col.length; b++) {
+
+
+        if (color == col[b]) {
+            alert(' good job i love iris , pink, mavue, and violet color');
+            userAnswer = true;
+              score++;
             break;
         }
+
+    } if (userAnswer == true) {
+        break;
     }
+    else if (b == 5) {
+        alert('good job');
+    }
+    else if (userAnswer == false) {
+        alert('try again');
+    }
+
+}
 };
 
 seventhQuesFun();
